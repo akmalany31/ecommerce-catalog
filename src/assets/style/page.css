@@ -1,0 +1,46 @@
+#app {
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.product-container {
+  padding: 20px;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.product-details {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.product-image {
+  max-height: 300px; /* Sesuaikan tinggi maksimal gambar sesuai kebutuhan */
+}
+
+.btn-primary {
+  border-radius: 8px;
+}
+
+.btn-buy-now {
+  border-radius: 8px;
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+}
