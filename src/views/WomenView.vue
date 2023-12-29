@@ -99,6 +99,7 @@ export default {
     },
     buyNow() {
       //Belum ya
+      //gadisuruh (?)
       console.log("Buy Now clicked");
     },
   },

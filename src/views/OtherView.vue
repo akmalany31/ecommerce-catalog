@@ -77,7 +77,7 @@ export default {
     fetchData() {
       this.loading = true;
 
-      // Tampilkan pesan "This product is unavailable to show" pada kategori "Other"
+      //Tampilkan pesan "This product is unavailable to show" pada kategori "Other"
       if (this.selectedCategory === "other") {
         this.products = [
           {
@@ -91,8 +91,6 @@ export default {
         this.loading = false;
         return;
       }
-
-      // ... (kode untuk mengambil data produk berdasarkan kategori)
     },
     getNextProduct() {
       this.currentIndex++;
@@ -108,7 +106,7 @@ export default {
 <style>
 .category-dropdown {
   margin-bottom: 20px;
-  display: none; /* Menyembunyikan dropdown kategori */
+  display: none;
 }
 .background {
   background: linear-gradient(180deg, #dfe3ea 60%, white 50%);

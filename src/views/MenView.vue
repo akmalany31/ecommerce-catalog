@@ -114,12 +114,12 @@ export default {
 .product-title {
   font-size: 20px;
   font-weight: bold;
-  color: #002772; /* Pink Text Color */
+  color: #002772;
 }
 
 .product-price {
   font-size: 20px;
   font-weight: bold;
-  color: #002772; /* Pink Text Color */
+  color: #002772;
 }
 </style>
